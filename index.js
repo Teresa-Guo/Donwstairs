@@ -26,9 +26,8 @@ window.alert("以下是小朋友下樓梯的遊戲規則：\n控制鍵盤左右�
 
 function preload () {
 
-    game.load.baseURL = 'https://Teresa-Guo.github.io/pictures/'; // 代換自己的線上.io網址
+    game.load.baseURL = 'https://Teresa-Guo.github.io/Downstairs/pictures/'; // 代換自己的線上.io網址
     // game.load.baseURL = 'https://wacamoto.github.io/NS-Shaft-Tutorial/assets/';
-    //https://github.com/Teresa-Guo/Donwstairs/tree/main/new_pictures
     game.load.crossOrigin = 'anonymous';
 
     // spritesheet用在包含多個分別的圖片 image則是單一圖片
