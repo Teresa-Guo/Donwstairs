@@ -26,7 +26,8 @@ window.alert("以下是小朋友下樓梯的遊戲規則：\n控制鍵盤左右�
 
 function preload () {
 
-    game.load.baseURL = 'https://Teresa-Guo.github.io/Downstairs/pictures/'; // 代換自己的線上.io網址
+    game.load.baseURL = 'https://Downstairs/pictures/'; // 代換自己的線上.io網址
+    // game.load.baseURL = 'https://Teresa-Guo.github.io/pictures/';
     // game.load.baseURL = 'https://wacamoto.github.io/NS-Shaft-Tutorial/assets/';
     game.load.crossOrigin = 'anonymous';
 
